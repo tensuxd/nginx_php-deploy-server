@@ -1,0 +1,8 @@
+root           7  0.0  0.0   3180  2048 hvc0     Sl+  05:13   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+server       387  0.0  0.0   6268  5540 pts/0    Ss   05:13   0:00 -bash
+root         388  0.0  0.0   8648  5476 ?        Ss   05:13   0:00 login -- server
+server       431  0.0  0.1  22336 13604 ?        Ss   05:13   0:00 /usr/lib/systemd/systemd --user
+server       433  0.0  0.0  22912  4076 ?        S    05:13   0:00 (sd-pam)
+server       462  0.0  0.0   6136  5416 pts/1    Ss+  05:13   0:00 -bash
+server      1281  0.0  0.0   7160  4400 pts/0    R+   06:51   0:00 ps aux
+server      1282  0.0  0.0   4128  2388 pts/0    S+   06:51   0:00 grep --color=auto server
